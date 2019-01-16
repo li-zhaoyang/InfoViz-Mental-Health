@@ -1,0 +1,127 @@
+::ng-deep .brandname {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
+}
+::ng-deep .section {
+    position: relative;
+    /* position: absolute; */
+    padding: 8.125rem 0;
+}
+@media (min-width:768px) {
+    ::ng-deep  .section {
+        padding: 3rem 0;
+    }
+}
+
+::ng-deep .section-top {
+    padding-top: 8.125rem;
+}
+
+::ng-deep .section-bottom{
+    padding-bottom: 0;
+    /*8.125rem;*/
+}
+
+@media (min-width:768px) {
+    ::ng-deep  .section-top {
+        padding-top: 10.3125rem;
+    }
+}
+
+
+::ng-deep .bg-cover {
+    background-repeat: no-repeat;
+    background-position: 50%;  
+    background-size: cover;
+    height: 100%;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover
+}
+
+::ng-deep .bg-cover,
+.bg-overlay,
+.bg-overlay:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+::ng-deep .bg-overlay:before {
+    content: "";
+    opacity: .55;
+    background-color: #212529
+}
+
+::ng-deep .lead {
+    font-size: 1.0625rem;
+    font-weight: 300
+}
+
+
+::ng-deep .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+
+::ng-deep .banner-content{
+    padding: 130px 0px;
+}
+
+::ng-deep .fixed-top {
+    position: fixed;
+    z-index: 1030;
+    right: 0;
+    left: 0;
+}
+
+::ng-deep .membername {
+    font-family: Helvetica,Arial,sans-serif;
+    color: #fdfcf5
+}
+::ng-deep h4 {
+    font-family: 'Trebuchet MS';
+    font-weight: 500;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #626364
+}
+::ng-deep .h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    /* font-family: Catamaran,Helvetica,Arial,sans-serif; */
+    font-family: 'Trebuchet MS';
+    font-weight: 500;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529
+}
+
+::ng-deep p {
+    font-family: "Avenir-Book";
+    font-weight: 500;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529
+}
+

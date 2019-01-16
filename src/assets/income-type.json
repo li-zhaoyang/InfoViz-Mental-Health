@@ -1,0 +1,185 @@
+{
+  "name": "Type",
+  "children": [
+    {
+      "name": "High",
+      "children": [
+        {
+          "name": "Anxiety disorders",
+          "value": 0.055908209
+        },
+        {
+          "name": "Depressive disorders",
+          "value": 0.044057038
+        },
+        {
+          "name": "Idiopathic developmental intellectual disability",
+          "value": 0.003854827
+        },
+        {
+          "name": "Autism spectrum disorders",
+          "value": 0.00611187
+        },
+        {
+          "name": "Bipolar disorder",
+          "value": 0.008224322
+        },
+        {
+          "name": "Other mental disorders",
+          "value": 0.025918898
+        },
+        {
+          "name": "Schizophrenia",
+          "value": 0.003297139
+        },
+        {
+          "name": "Conduct disorder",
+          "value": 0.005528492
+        },
+        {
+          "name": "Eating disorders",
+          "value": 0.00421271021701
+        },
+        {
+          "name": "Attention-deficit/hyperactivity disorder",
+          "value": 0.008610579
+        }
+      ]
+    },
+    {
+      "name": "Upper-Middle",
+      "children": [
+        {
+          "name": "Anxiety disorders",
+          "value": 0.038654579
+        },
+        {
+          "name": "Depressive disorders",
+          "value": 0.039160474
+        },
+        {
+          "name": "Idiopathic developmental intellectual disability",
+          "value": 0.004448506
+        },
+        {
+          "name": "Autism spectrum disorders",
+          "value": 0.003906353
+        },
+        {
+          "name": "Bipolar disorder",
+          "value": 0.005958848
+        },
+        {
+          "name": "Other mental disorders",
+          "value": 0.022335813
+        },
+        {
+          "name": "Schizophrenia",
+          "value": 0.003289897
+        },
+        {
+          "name": "Conduct disorder",
+          "value": 0.005333928
+        },
+        {
+          "name": "Eating disorders",
+          "value": 0.00208080296138
+        },
+        {
+          "name": "Attention-deficit/hyperactivity disorder",
+          "value": 0.012215901
+        }
+      ]
+    },
+    {
+      "name": "Lower-Middle",
+      "children": [
+        {
+          "name": "Anxiety disorders",
+          "value": 0.033627845
+        },
+        {
+          "name": "Depressive disorders",
+          "value": 0.031769775
+        },
+        {
+          "name": "Idiopathic developmental intellectual disability",
+          "value": 0.025680378
+        },
+        {
+          "name": "Autism spectrum disorders",
+          "value": 0.003754318
+        },
+        {
+          "name": "Bipolar disorder",
+          "value": 0.005815072
+        },
+        {
+          "name": "Other mental disorders",
+          "value": 0.017769411
+        },
+        {
+          "name": "Schizophrenia",
+          "value": 0.00224484
+        },
+        {
+          "name": "Conduct disorder",
+          "value": 0.008652113
+        },
+        {
+          "name": "Eating disorders",
+          "value": 0.00165788407
+        },
+        {
+          "name": "Attention-deficit/hyperactivity disorder",
+          "value": 0.007351212
+        }
+      ]
+    },
+    {
+      "name": "Low",
+      "children": [
+        {
+          "name": "Anxiety disorders",
+          "value": 0.031701988
+        },
+        {
+          "name": "Depressive disorders",
+          "value": 0.028093619
+        },
+        {
+          "name": "Idiopathic developmental intellectual disability",
+          "value": 0.01042912
+        },
+        {
+          "name": "Autism spectrum disorders",
+          "value": 0.004485068
+        },
+        {
+          "name": "Bipolar disorder",
+          "value": 0.005295081
+        },
+        {
+          "name": "Other mental disorders",
+          "value": 0.014205529
+        },
+        {
+          "name": "Schizophrenia",
+          "value": 0.001271005
+        },
+        {
+          "name": "Conduct disorder",
+          "value": 0.010928387
+        },
+        {
+          "name": "Eating disorders",
+          "value": 0.00110526773831
+        },
+        {
+          "name": "Attention-deficit/hyperactivity disorder",
+          "value": 0.015486701
+        }
+      ]
+    }
+  ]
+}

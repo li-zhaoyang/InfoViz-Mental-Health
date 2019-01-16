@@ -1,0 +1,64 @@
+<p>
+  We always want to know the prevalence of mental disorders by death rate. However, death rate is very one-sided, so we
+  can choose DALY(disability-adjusted life year) to measure the overall disease burden, which means the number of years
+  lost due to ill-health, disability or early death.
+  In this map below, we focus on its share of total disease burden.
+</p>
+<p>
+  Mental disorders give the reason for around 7 percent of global disease burden in 2016, but this reaches up to 13-14
+  percent in several countries. These disorders have the highest contribution to overall health burden in Australia and
+  United States.
+</p>
+<p>
+
+</p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div id="slider-div"> 
+      <!-- <input id="slider" type="range" min="1990" max="2016" value="2016" step="1" width="100" /> -->
+      <!-- <span id="range">2016</span> -->
+      </div>
+      <!-- <div style="min-height: 600px !important;"> -->
+
+      <svg width="700" height="400">
+        <g width="700" height="400" id="choropleth_map"></g>
+        <g id="line_chart" width="700"></g>
+      </svg>
+    </div>
+    <div class="col-sm">
+      <span></span>
+      <!-- <div class="card" style="width: 15rem;"> -->
+      <div class="card">
+        <div class="card-body">
+          <div id="graph-name-div">
+            <h4 id="map-name" class="card-title" style="display: inline">Share of Mental Illness in Total Disease Burden in Year <span id="selected-year-span">2016</span></h4>
+            <h4 id="chart-name" class="card-title" style="display: none">Temporal Trend in Years</h4>
+          </div>
+          <h5 id="card-console" class="card-title">Console</h5>
+          <div id="map-control-div">
+             <h6 id="slide-bar-intro" class="card-subtitle mb-2 text-muted"><b>Click Play Button</b> to show yearly changes in map.<br> <b>Slide</b> to change year of selection.</h6>
+             <div align="center">
+                <button type="button" id="play-button" class="btn">&#10148;</button>
+                <span>&nbsp;&nbsp;</span>
+                <input id="slider" type="range" style="width: 80%" class="custom-range" min="1990" max="2016" value="2016" />
+                <p></p>
+            </div>
+            <h6 id="map-hover-legend-tip" class="card-subtitle mb-2 text-muted"><b>Hover on</b> legend section to highlight grouped countries.</h6>
+            <h6 id="map-select-country-tip" class="card-subtitle mb-2 text-muted" ><b>Click on</b> countries in map to see temporal trend in a line chart.</h6>
+          </div>
+          <p></p>
+          <h6 id="chart-hover-tip" class="card-subtitle mb-2 text-muted" style="display: none"><b>Hover</b> on lines to see details of data points.</h6>
+          <div id="clear-button"></div>
+
+          <div class="selected_item">
+            <!-- <span>rus</span>
+             <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>       -->
+          </div>
+          <div id="switch-button-div" style="text-align:center;"></div>
+          <p id="card-desc" class="card-text"> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

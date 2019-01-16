@@ -1,0 +1,64 @@
+::ng-deep div.tooltip {	
+    position: absolute;			
+    text-align: left;	
+    left: 3em;		
+    width: 125px;					
+    height: auto;					
+    padding: 2px;				
+    font: 11px Helvetica;		
+    /* background-color: rgb(224, 224, 208);	 */
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;		
+    background: #fff;
+    box-shadow: 0 0 5px #888;	
+}
+
+::ng-deep .node {
+    /* stroke: rgb(255, 255, 255); */
+    cursor: pointer;
+}
+::ng-deep .node:hover {
+    stroke: #000;
+    stroke-width: 1.5px;
+}
+/* ::ng-deep .node--leaf {
+    fill: white;
+} */
+
+::ng-deep .label {
+    font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-anchor: middle;
+    /* text-shadow: 0 0px 0 #fff, 0px 0 0 #fff, 0px 0 0 #fff, 0 0px 0 #fff; */
+}
+::ng-deep .label--node{
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-anchor: middle;
+    /* text-shadow: 0 0px 0 #fff, 0px 0 0 #fff, 0px 0 0 #fff, 0 0px 0 #fff; */
+}
+::ng-deep .label, .node--root, .node--leaf {
+    pointer-events: none;
+}
+
+::ng-deep .card-text {
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+/* ::ng-deep .h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    font-family: Catamaran,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.35;
+    margin-bottom: .5rem;
+    color: #212529
+} */

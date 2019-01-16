@@ -1,0 +1,199 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand js-scroll-trigger" href="#head">
+      <p class="brandname" style="color:white;font-size: 26px;font-style: italic;font-family:'Trebuchet MS';">Shelchier</p>
+    </a>
+
+    <div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link js-scroll-trigger" href="#head">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#global">
+            Global
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#type">
+            Type
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#depressive">
+            Depressive
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#team">
+            Team
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- </div> -->
+</nav>
+
+<section class="section section-top section-full" id="head">
+  <!-- Cover -->
+  <div class="bg-cover" style="background-image: url('assets/img/happy.jpg');"></div>
+  <!-- Overlay -->
+  <div class="bg-overlay"></div>
+  <!-- Content -->
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-10 col-lg-7 ">
+        <div class="banner-content">
+          <!-- Preheading -->
+          <p class="text-white text-uppercase text-center text-xs">
+            Shelchier <span> </span>
+          </p>
+
+          <!-- Heading -->
+          <h1 class="text-white text-center mb-4 display-4 font-weight-bold">
+            Mental Health <br>In The World
+          </h1>
+
+          <!-- Subheading -->
+          <p class="lead text-white text-center mb-5">
+            Explore and discover the most invisible but prevalent health problem over the world -- mental health
+            illness
+            . Learn more details easily from vivid and interactive charts.
+          </p>
+          <!-- Button -->
+          <p class="text-center mb-0">
+            <a href="#global" target="_blank" class="btn btn-primary js-scroll-trigger">Start Tour
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- / .row -->
+  </div>
+  <!-- / .container -->
+</section>
+
+
+<div style="text-align:center">
+
+</div>
+
+<!-- GLOBAL  ================================================== -->
+<section class="section" style="height: 0px;" id="global">
+
+  <div class="container">
+    <h2>The Global Prevalence of Mental Disorders </h2>
+  </div>
+</section>
+<br>
+<div class="container">
+  <app-global-map></app-global-map>
+</div>
+
+<!-- Types  ================================================== -->
+<section class="section" style="height: 0px;" id="type">
+  <div class="container">
+    <h2> Types of Mental Illness in Countries and Age Groups </h2>
+  </div>
+</section>
+<br>
+<div class="container">
+  <app-age-type></app-age-type>
+</div>
+<!-- / .container -->
+
+<!-- Depressive  ================================================== -->
+
+<section class="section" style="height: 0px;" id="depressive">
+  <div class="container">
+    <h2>Depressive Disorders</h2>
+    
+  </div>
+</section>
+<br>
+<div class="container">
+  <h3>Physiological Factors (Gender and Age) of Depressive Disorders</h3>
+</div>
+<div class="container">
+  <app-suicide-sex-scatter></app-suicide-sex-scatter>
+</div>
+<div class="container">
+  <app-depression-sex-age></app-depression-sex-age>
+</div>
+<div class="container">
+  <h3>Economical Factors of Depressive Disorders</h3>
+</div>
+<div class="container">
+  <app-depression-gdp></app-depression-gdp>
+</div>
+<br><br>
+<section class="section bg-dark" id="team">
+
+
+<!-- Team -->
+  <div class="container">
+    <h1 style="color:white">Team </h1>
+
+    <div class="container text-center">
+      <div class="row" style="text-align: center">
+
+        <div class="col-sm m-auto">
+          <div class=" text-center test-content">
+            <div style="clear:both"> <img src="assets/img/member/11.png" width="130" height="130" style=" border-radius:50%; border: 5px solid#ddd;"></div>
+            <div style="clear:both">
+              <br>
+              <p style="color: #fdfcf5; font-size: 20px">Taoran Ju</p>
+              <p style="color: #fdfcf5; font-size: 15px">taoranju@usc.edu</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm m-auto">
+          <div class=" text-center test-content">
+
+            <div style="clear:both"> <img src="assets/img/member/22.png" width="130" height="130" style=" border-radius:50%;border: 5px solid#ddd;"></div>
+            <div style="clear:both">
+              <br>
+              <p style="color: #fdfcf5; font-size: 20px">Wanjin Li</p>
+              <p style="color: #fdfcf5; font-size: 15px">wanjinli@usc.edu</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm m-auto">
+          <div class=" text-center test-content">
+            <div style="clear:both"> <img src="assets/img/member/33.png" width="130" height="130" style=" border-radius:50%;border: 5px solid#ddd;"></div>
+            <div style="clear:both">
+              <br>
+              <p style="color: #fdfcf5; font-size: 20px">Zhaoyang Li</p>
+              <p style="color: #fdfcf5; font-size: 15px">zhaoyanl@usc.edu</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="container text-center">
+      <p style="color: #c5c5c1; font-size: 15px">Published At: <a class="btn btn-link btn-sm" href="http://www-scf.usc.edu/~wanjinli/project/web/"
+          role="button">Link &raquo;</a></p>
+      <p><span style="color: #c5c5c1;">Data Source: </span>
+        <span>&nbsp;</span>
+        <a class="btn btn-secondary btn-sm" href="http://ghdx.healthdata.org/gbd-results-tool" role="button">
+          IHME </a>
+        <span>&nbsp;</span>
+        <a class="btn btn-secondary btn-sm" href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD" role="button">
+          World Bank</a>
+        <span>&nbsp;</span>
+        <a class="btn btn-secondary btn-sm" href="http://hdr.undp.org/en/data" role="button">
+        United Nations</a></p>
+    </div>
+  </div>
+  <!-- / .container -->
+</section>
